@@ -1,0 +1,75 @@
+*{
+    /*border: 1px red solid;*/
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 华文琥珀;
+    color: white;
+    font-size: 30px;
+    margin-top: 8px;
+    margin-left: 8px;
+    /*margin: 8px 8px 8px 8px;!*上右下左*!*/
+    padding: 8px;
+}
+#header span {
+    float: right;
+    margin: 10px 50px;
+    color: #FFFFFF;
+}
+body{
+    width: 100%;
+}
+
+#header,#footer{
+    width: 100%;
+    height: 150px;
+    background-color: powderblue;
+}
+
+#aside{
+    width: 15%;
+    height: 79%;
+    padding: 20px;
+    float: left;
+    background-color: cadetblue;
+    box-sizing: border-box;
+}
+
+#section{
+    width: 85%;
+    height: 79%;
+    float: right;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+h2{
+    text-align: center;
+}
+
+#aside .menu-ul{
+    /*display: none;*/
+    list-style-type: none;
+    /*margin: auto;*/
+    text-align: center;
+}
+
+#iframe{
+    background-color: #66CCCC;
+    width: 100%;
+    height: 100%;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+
+#cityList{
+    display: none;
+}
+
